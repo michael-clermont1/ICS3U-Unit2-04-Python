@@ -63,7 +63,7 @@
                 <mxCell id="6" value="Get diameter of pizza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="130" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="sub_total= 0.75+1+ (0.5 * x)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="sub_total= 0.75+1+ (0.5 * diameter)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="220" y="430" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Show total" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
