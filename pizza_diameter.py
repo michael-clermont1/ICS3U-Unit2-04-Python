@@ -15,8 +15,10 @@ def main():
     diameter = float(input("Enter the diameter of the pizza (inch): "))
 
     # process
-    pizza_price = 0.75 + 1 + (0.5 * diameter)
-    total = pizza_price * constants.HST
+    pizza_price = (
+        constants.LABOR + constants.RENT + (diameter * constants.COST_PER_INCH)
+    )
+    total = pizza_price + (pizza_price * constants.HST)
 
     # output
     print("")
